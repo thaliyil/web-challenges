@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!--
+This page looks so confusing.
+It would be much better to work with semantic HTML to structure this code.
+Let's fix this mess!
+(There are hints to help you out below some elements)
+-->
+
+<html lang="en">
+  <head>
+    <title>HTML Basics Excercise</title>
+    <meta charset="UTF-8" />
+  </head>
+  <!--someone forgot to wrap the content of our webpage with an HTML element,
+	which one was it again?-->
+  <div>
+    <div>
+      <div>Jane Doe</div>
+      <!--Which elements could be used to link to parts of the webpage,
+		which appear below?-->
+      <ul><li>About Me</li>
+        <li>Contact</li>
+        <li>Skillset</li>
+      </ul>
+      
+    <!--Looks like the following part is the central content of our webpage.-->
+    
+      <main><h1>About me</h1>
+        
+          Hi there! Welcome to my personal website. Here is gathered the most
+          important information about me. If you want to work with me or get to
+          know me, please don't hesitate to get in contact.
+        </main>
+        <!--What element could be used to combine an image with a descriptive caption?-->
+        <div>
+          <img
+            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+            alt="a random picture"/>
+          
+          <div>
+            A random picture, because I would like to maintain my privacy and
+            let my code speak for me, instead of images.
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div>Contact</div>
+        <!--When clicking on these element, nothing happens! But I want to be redirected to the other websites. Why is it not working?-->
+        <a href="https://github.com/neuefische">GitHub</a>
+        <a href="https://de.linkedin.com/">LinkedIn</a>
+        <a href="https://codesandbox.io/">CodeSandbox</a>
+      </div>
+
+      < id="skills">
+        <div>Skillset</div>
+        <!--This part could use some bulletpoint to be more structured-->
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Painting rainbows</li>
+          <li>Party</li></ul> 
+      </div>
+    </div>
+  </div>
+</html>
