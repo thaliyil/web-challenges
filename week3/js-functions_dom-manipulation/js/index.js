@@ -4,7 +4,6 @@ const greenButton = document.querySelector("[data-js=js-green-button]");
 const blueButton = document.querySelector("[data-js=js-blue-button]");
 const grayButton = document.querySelector("[data-js=js-gray-button]");
 
-
 function removeAllColors() {
   box.classList.remove("red");
   box.classList.remove("blue");
@@ -35,5 +34,3 @@ grayButton.addEventListener("click", () => {
   removeAllColors();
   addColor("gray");
 });
-
-// Write your two functions below:
